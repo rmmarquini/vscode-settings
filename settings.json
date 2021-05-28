@@ -1,0 +1,211 @@
+{
+
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontSize": 14,
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 20,
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  // "editor.rulers": [80, 120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "window.menuBarVisibility": "toggle",
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "breadcrumbs.enabled": true,
+
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    // "**/node_modules": true
+  },
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact"
+  },
+
+  // JS
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Typescript
+  "typescript.tsserver.log": "verbose",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // Java
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.semanticHighlighting.enabled": true,
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "java.home": "C:\\Program Files\\RedHat\\java-15-openjdk-15.0.2-1",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "C:\\Program Files\\RedHat\\java-1.8.0-openjdk-1.8.0.282-1"
+    },
+    {
+      "name": "JavaSE-15",
+      "path": "C:\\Program Files\\RedHat\\java-15-openjdk-15.0.2-1",
+      "default": true
+    }
+  ],
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+
+  // IntelliCode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // LiveServer
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // MS LiveShare
+  "liveshare.featureSet": "insiders",
+
+  // TabNine
+  "tabnine.experimentalAutoImports": true,
+
+  // Material Icon Theme
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+
+  // Code Spell
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.userWords": [
+    "rocketseat",
+    "infive",
+    "lugos lab"
+  ],
+
+  // Codesnap
+  "codesnap.backgroundColor": "transparent",
+  "codesnap.transparentBackground": true,
+  "codesnap.boxShadow": "0 0 0",
+
+  // TODO tree
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "gutterIcon": true,
+      "icon": "check",
+      "type": "text",
+      "foreground": "white",
+      "background": "#1E90FF",
+      "opacity": 75,
+      "iconColour": "#1E90FF"
+    },
+    "FIXME": {
+      "gutterIcon": true,
+      "icon": "alert",
+      "type": "text",
+      "foreground": "white",
+      "background": "#FFA500",
+      "opacity": 90,
+      "iconColour": "#D2691E"
+    },
+    "BUG": {
+      "gutterIcon": true,
+      "icon": "bug",
+      "type": "text",
+      "foreground": "white",
+      "background": "#FF0000",
+      "opacity": 75,
+      "iconColour": "#B22222"
+    },
+    "DEPRECATED": {
+      "gutterIcon": true,
+      "icon": "stop",
+      "type": "text",
+      "foreground": "white",
+      "background": "#662075",
+      "opacity": 75,
+      "iconColour": "#BB70CC"
+    }
+  }
+
+}
