@@ -96,6 +96,15 @@
   "java.project.importOnFirstTimeStartup": "automatic",
   "java.jdt.ls.java.home": "C:\\Program Files\\RedHat\\java-17-openjdk-17.0.4.1.1-1",
   "java.codeGeneration.generateComments": true,
+  // Prettier
+  "prettier.arrowParens": true,
+  "prettier.bracketSpacing": false,
+  "prettier.endOfLine": "lf",
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.embeddedLanguageFormatting": "auto",
   // Prisma
   "[prisma]": {
     "editor.formatOnSave": true
@@ -229,5 +238,6 @@
       "opacity": 75,
       "iconColour": "#BB70CC"
     }
-  }
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
