@@ -9,6 +9,8 @@
   "terminal.integrated.fontFamily": "Consolas",
   "terminal.integrated.gpuAcceleration": "off",
   // Editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.fontSize": 14,
   "editor.lineHeight": 23,
@@ -24,7 +26,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "editor.formatOnSave": true,
   "editor.quickSuggestions": {
     "strings": true // forces VS Code to trigger completions when editing "string" content
   },
@@ -96,18 +97,10 @@
   "java.project.importOnFirstTimeStartup": "automatic",
   "java.jdt.ls.java.home": "C:\\Program Files\\RedHat\\java-17-openjdk-17.0.4.1.1-1",
   "java.codeGeneration.generateComments": true,
-  // Prettier
-  "prettier.arrowParens": true,
-  "prettier.bracketSpacing": false,
-  "prettier.endOfLine": "lf",
-  "prettier.singleQuote": false,
-  "prettier.tabWidth": 2,
-  "prettier.trailingComma": "es5",
-  "prettier.useTabs": false,
-  "prettier.embeddedLanguageFormatting": "auto",
   // Prisma
   "[prisma]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma"
   },
   // Git, Github, Gitlens
   "git.autofetch": true,
@@ -238,6 +231,5 @@
       "opacity": 75,
       "iconColour": "#BB70CC"
     }
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
