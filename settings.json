@@ -1,12 +1,12 @@
 {
   // Terminal
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.showExitAlert": false,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
-  "terminal.integrated.fontFamily": "Consolas",
+  "terminal.integrated.fontFamily": "Ubuntu Mono, monospace, Consolas",
   "terminal.integrated.gpuAcceleration": "off",
   // Editor
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -178,9 +178,10 @@
   ],
   "cSpell.language": "en,pt,pt_BR",
   "cSpell.userWords": [
-    "routeasy",
     "lugos lab",
-    "nftrend"
+    "nestjs",
+    "nftrend",
+    "routeasy"
   ],
   "polacode.transparentBackground": true,
   "polacode.target": "snippet",
